@@ -27,7 +27,7 @@ export default function Home() {
         <div className="absolute bottom-0 left-1/2 h-64 w-64 -translate-x-1/2 rounded-full bg-amber-400/10 blur-3xl" />
       </div>
 
-      <main className="mx-auto flex min-h-screen max-w-[1200px] flex-col gap-16 px-6 pb-24 pt-12 sm:px-10 sm:pt-20">
+      <main className="mx-auto flex min-h-screen max-w-[1200px] flex-col gap-14 px-5 pb-20 pt-10 sm:gap-16 sm:px-10 sm:pb-24 sm:pt-20">
         <Hero navItems={navItems} />
 
         <div className="grid gap-20">

@@ -12,10 +12,10 @@ export function Section({ id, title, eyebrow, children }: SectionProps) {
     <section id={id} className="scroll-mt-24">
       <div className="flex flex-col gap-4">
         {eyebrow ? (
-          <p className="text-xs uppercase tracking-[0.3em] text-sky-400">{eyebrow}</p>
+          <p className="text-center text-xs uppercase tracking-[0.26em] text-sky-400 sm:text-left">{eyebrow}</p>
         ) : null}
-        <h2 className="text-3xl font-semibold text-slate-50 sm:text-4xl">{title}</h2>
-        <div className="mt-4 space-y-6 text-base text-slate-300 md:text-lg">
+        <h2 className="text-center text-3xl font-semibold text-slate-50 sm:text-left sm:text-4xl">{title}</h2>
+        <div className="mt-4 space-y-6 text-base text-slate-300 sm:text-[1.05rem] md:text-lg">
           {children}
         </div>
       </div>

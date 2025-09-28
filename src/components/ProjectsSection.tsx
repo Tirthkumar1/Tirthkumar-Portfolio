@@ -10,10 +10,10 @@ export function ProjectsSection() {
         {projects.map((project) => (
           <article
             key={project.name}
-            className="flex h-full flex-col justify-between gap-5 rounded-3xl border border-white/10 bg-slate-900/70 p-6 text-sm text-slate-200 shadow-lg shadow-black/10 transition duration-300 hover:-translate-y-1 hover:border-sky-400/40"
+            className="flex h-full flex-col justify-between gap-5 rounded-3xl border border-white/10 bg-slate-900/70 p-6 text-sm text-slate-200 shadow-lg shadow-black/10 transition duration-300 hover:-translate-y-1 hover:border-sky-400/40 text-center sm:text-left"
           >
             <div className="space-y-3">
-              <div className="flex items-center justify-between gap-3 text-xs uppercase tracking-[0.2em] text-slate-400">
+              <div className="flex flex-col items-center justify-between gap-2 text-xs uppercase tracking-[0.2em] text-slate-400 sm:flex-row sm:gap-3">
                 <span>{project.timeframe}</span>
                 {project.link ? (
                   <a
@@ -29,7 +29,7 @@ export function ProjectsSection() {
               <h3 className="text-2xl font-semibold text-slate-50">{project.name}</h3>
               <p className="text-base leading-relaxed text-slate-300">{project.description}</p>
             </div>
-            <div className="flex flex-wrap items-center justify-between gap-3">
+            <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
               <div className="flex flex-wrap gap-2">
                 {project.tech.map((item) => (
                   <Badge key={item}>{item}</Badge>
