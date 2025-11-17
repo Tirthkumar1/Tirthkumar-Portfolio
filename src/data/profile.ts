@@ -122,6 +122,14 @@ export const projects: Project[] = [
     tech: ["React", "Three.js", "GSAP", "Tailwind CSS"],
     link: "https://brilliant-brigadeiros-41c384.netlify.app/",
   },
+  {
+    name: "Bloomscape Garden Services",
+    timeframe: "2025",
+    description:
+      "Marketing site for a gardening brand, built with a Vite + React stack and tailored animations to present services.",
+    tech: ["Vite", "React", "Tailwind CSS"],
+    link: "http://jens-gardening.netlify.app/",
+  },
 ];
 
 export const skills: SkillGroup[] = [

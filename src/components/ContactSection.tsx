@@ -32,7 +32,7 @@ export function ContactSection() {
         <div className="rounded-2xl border border-white/10 bg-white/5 p-4 text-center sm:text-left">
           <p className="text-xs uppercase tracking-[0.3em] text-slate-400">Address</p>
           <p className="mt-2 text-base text-slate-200">
-            Studentenwohnheim Jakobsplan 20103, 99423 Weimar, Germany
+            Studentenwohnheim Jakobsplan 20505, 99423 Weimar, Germany
           </p>
         </div>
       </div>
