@@ -84,6 +84,17 @@ export const experiences: Experience[] = [
       "Maintain hotel IT equipment, ensuring reliable connectivity and smooth check-in workflows.",
     ],
   },
+  {
+    role: "M.Sc. Thesis: Technical Line Drawing Generation",
+    company: "Bauhaus University Weimar",
+    timeframe: "Sep 2025 - Present",
+    location: "Weimar, Germany",
+    highlights: [
+      "Developing a pipeline that produces detailed line drawings of mechanical components from their color imagery.",
+      "Experimenting with Python, OpenCV, and pretrained vision models to detect edges, refine contours, and suppress noise.",
+      "Iterating on model selection and post-processing to balance engineering precision with visual clarity.",
+    ],
+  },
 ];
 
 export const education: Education[] = [
