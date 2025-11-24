@@ -126,8 +126,8 @@ export const projects: Project[] = [
     name: "Bloomscape Garden Services",
     timeframe: "2025",
     description:
-      "Marketing site for a gardening brand, built with a Vite + React stack and tailored animations to present services.",
-    tech: ["Vite", "React", "Tailwind CSS"],
+      "Marketing site for a gardening brand, built with a NEXT+Typescript stack and tailored animations to present services.",
+    tech: ["NEXT", "Typescript", "Tailwind CSS"],
     link: "http://jens-gardening.netlify.app/",
   },
 ];
