@@ -77,7 +77,7 @@ export const experiences: Experience[] = [
   {
     role: "Front Desk Associate",
     company: "Boutique-Hotel Amalienhof",
-    timeframe: "Aug 2023 - Present",
+    timeframe: "Aug 2023 - Aug 2025",
     location: "Weimar, Germany",
     highlights: [
       "Deliver warm, attentive guest relations while coordinating daily reception operations.",
