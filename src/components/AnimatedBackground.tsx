@@ -5,7 +5,7 @@ import { useEffect, useRef } from "react";
 const PARTICLE_COUNT = 300;
 const MAX_CONNECTIONS = 3;
 const CONNECTION_DISTANCE = 160;
-const PARTICLE_SPEED = 0.35;
+const PARTICLE_SPEED = 0.7;
 
 interface Particle {
   x: number;
